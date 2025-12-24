@@ -1,16 +1,12 @@
-const express = require("express");
-const app = express();
+import express from "express";
 
-const port = process.env.PORT || 3000;
+const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.send("FFmpeg worker alive");
 });
 
-app.get("/health", (req, res) => {
-  res.json({ ok: true });
-});
-
-app.listen(port, "0.0.0.0", () => {
-  console.log("Listening on", port);
+app.listen(PORT, () => {
+  console.log(`Server listening on ${PORT}`);
 });
