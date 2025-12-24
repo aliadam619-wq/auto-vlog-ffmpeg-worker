@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for auto-vlog-ffmpeg-worker on 2025-12-24T00:40:15Z
+# fly.toml app configuration file generated for auto-vlog-ffmpeg-worker-bouzmg on 2025-12-24T01:06:05Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'auto-vlog-ffmpeg-worker'
-primary_region = 'iad'
+app = 'auto-vlog-ffmpeg-worker-bouzmg'
+primary_region = 'arn'
 
 [build]
 
