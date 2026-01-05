@@ -1,0 +1,13 @@
+{
+  "name": "ffmpeg-worker",
+  "version": "1.0.0",
+  "description": "FFmpeg rendering worker for Auto Vlog Editor",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
